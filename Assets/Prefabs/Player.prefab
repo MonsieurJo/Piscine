@@ -649,7 +649,8 @@ MonoBehaviour:
     type: 2}
   spawnPosition: {fileID: 1113492087799364}
   maxHealth: 100
-  maxSpeed: 100
+  ammo: 3
+  maxSpeed: 50
   forwardAcceleration: 10
   straffMaxSpeed: 100
   straffTime: 0.1
