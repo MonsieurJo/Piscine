@@ -11,6 +11,6 @@ public class SpeedBonus : Bonus {
     public override void ApplyBonus (PlayerManager player)
     {
         player.BoostSpeed(velocity, duration, acceleration);
-        Destroy(gameObject);
+        _animator.SetTrigger("Pickup");
     }
 }

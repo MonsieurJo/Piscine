@@ -7,12 +7,15 @@ public class PlayerManager : MonoBehaviour {
 
     public Projectile projectilePrefab;
 
+    public HUDHandler UiHandler;
+
     public GameObject spawnPosition;
 
-    public float maxHealth = 100;
+    public float maxHealth = 100f;
     public int ammo = 3;
     public float maxSpeed = 100f;
 	public float forwardAcceleration = 20f;
+    public int score { get; private set; }
 
     public float straffMaxSpeed = 100f;
     public float straffTime = 0.1f;
@@ -22,7 +25,7 @@ public class PlayerManager : MonoBehaviour {
     private Transform _spawnPosition;
 	private float _smoothXVelocity;
 	private float _smoothYVelocity;
-    private float _currentHealth;
+    public float currentHealth;
 
     private float _boostAcceleration = 0f;
     private float _boostDuration = 0f;
@@ -34,16 +37,17 @@ public class PlayerManager : MonoBehaviour {
 		_rigidbody = GetComponent<Rigidbody>();
         _spawnPosition = spawnPosition.transform;
         // _currentAmmo = maxAmmo;
-        _currentHealth = maxHealth;
+        currentHealth = maxHealth;
         Assert.IsNotNull(_rigidbody);
         Assert.IsNotNull(_spawnPosition);
-
         Assert.IsNotNull(projectilePrefab);
-	}
+        Assert.IsNotNull(UiHandler);
+    }
 
 	// Use this for initialization
 	void Start () {
-        
+        currentHealth = maxHealth;
+        score = 0;
     }
 
     private void Update()
@@ -115,7 +119,7 @@ public class PlayerManager : MonoBehaviour {
 
     public void Kill()
     {
-        _currentHealth = 0;
+        currentHealth = 0;
         LevelManager.Instance.PlayerDeath();
     }
 
@@ -134,14 +138,16 @@ public class PlayerManager : MonoBehaviour {
 
     public void TakeDamage(float damage, GameObject instigator)
     {
-        if (_currentHealth - damage > 0)
+        if (currentHealth - damage > 0)
         {
-            _currentHealth -= damage;
+            currentHealth -= damage;
         }
         else
         {
+            currentHealth = 0f;
             Kill();
         }
+        UiHandler.TakeDamage();
     }
 
     public void BoostSpeed(float velocity, float duration, float acceleration)
@@ -149,5 +155,10 @@ public class PlayerManager : MonoBehaviour {
         _velocityBoost = velocity;
         _boostDuration = duration;
         _boostAcceleration = acceleration;
+    }
+
+    public void AddScore (int scoreValue)
+    {
+        score += scoreValue;
     }
 }

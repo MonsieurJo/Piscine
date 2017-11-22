@@ -9,6 +9,6 @@ public class MineMalus : Bonus {
     public override void ApplyBonus (PlayerManager player)
     {
         player.TakeDamage(damage, gameObject);
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 }
