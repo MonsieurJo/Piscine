@@ -6,11 +6,13 @@ using UnityEngine.Assertions;
 public class Projectile : MonoBehaviour {
 
     public float damage = 100f;
+    public float spawnDuration;
 
     private Rigidbody _rigidbody;
 
     private void Awake()
     {
+        spawnDuration = 3.0f;
         _rigidbody = GetComponent<Rigidbody>();
         Assert.IsNotNull(_rigidbody);
     }
@@ -29,5 +31,14 @@ public class Projectile : MonoBehaviour {
         }
 
         Destroy(this.gameObject);
+    }
+
+    private void Update()
+    {
+        spawnDuration -= Time.deltaTime;
+        if (spawnDuration <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -31,6 +31,7 @@ public class PlayerManager : MonoBehaviour {
     private float _boostDuration = 0f;
     private float _boostTimer = 0f;
     private float _velocityBoost = 0f;
+    //private float _playerRotation = 0f;
     //private int _currentAmmo;
 
 	private void Awake(){

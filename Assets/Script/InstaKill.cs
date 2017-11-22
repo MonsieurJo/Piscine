@@ -1,8 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 public class InstaKill : MonoBehaviour {
+
+    public Transform playerTransform;
+    public HUDHandler uiHandler;
+
+    private float _dist;
+    private int _distInInt;
+
+    public void Awake()
+    {
+        Assert.IsNotNull(playerTransform);
+    }
 
     public void OnCollisionEnter(Collision collision)
     {
@@ -11,5 +23,15 @@ public class InstaKill : MonoBehaviour {
         {
             player.Kill();
         }
+    }
+
+    public void Update()
+    {
+        _dist = Vector3.Distance(playerTransform.position, transform.position);
+        if(_dist <= 100f)
+        {
+            uiHandler.SetTransparency(_dist);
+        }
+        //Debug.Log(_dist);
     }
 }
