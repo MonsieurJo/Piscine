@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 20646957747453500}
   - component: {fileID: 124335821798210100}
   - component: {fileID: 92717477304598742}
+  - component: {fileID: 81896078897292984}
   m_Layer: 8
   m_Name: Camera Shoulder
   m_TagString: Untagged
@@ -217,7 +218,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4922639558377922}
-  - component: {fileID: 81161437769663400}
   m_Layer: 8
   m_Name: Cameras
   m_TagString: Untagged
@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 20845768846195446}
   - component: {fileID: 124000545415117964}
   - component: {fileID: 92660602152000440}
+  - component: {fileID: 81550398311663942}
   m_Layer: 8
   m_Name: Camera FPS
   m_TagString: Untagged
@@ -335,6 +336,7 @@ GameObject:
   - component: {fileID: 20148699114120890}
   - component: {fileID: 92284008234052366}
   - component: {fileID: 124502000774829882}
+  - component: {fileID: 81095422066674778}
   m_Layer: 8
   m_Name: Camera TPS
   m_TagString: MainCamera
@@ -677,13 +679,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1871716866172040}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.51, y: 0.18999994, z: -1.7699966}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -5.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4459344400708246}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
 --- !u!4 &4957218934129132
 Transform:
   m_ObjectHideFlags: 1
@@ -1196,12 +1198,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.869478, y: 2.8782525, z: 10.462776}
   m_Center: {x: -0.18957424, y: -0.3209293, z: -1.0698891}
---- !u!81 &81161437769663400
+--- !u!81 &81095422066674778
 AudioListener:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1512872828263778}
+  m_GameObject: {fileID: 1791144569489980}
+  m_Enabled: 1
+--- !u!81 &81550398311663942
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544289570216250}
+  m_Enabled: 1
+--- !u!81 &81896078897292984
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1262338189081302}
   m_Enabled: 1
 --- !u!92 &92284008234052366
 Behaviour:
