@@ -250,6 +250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4592585292931776}
   - component: {fileID: 65599067983642660}
+  - component: {fileID: 114799400677160720}
   m_Layer: 0
   m_Name: Doors
   m_TagString: Untagged
@@ -450,6 +451,18 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 163964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b33e1cb50d8f71341afaba844ed33cce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+--- !u!114 &114799400677160720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1126558134507500}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b33e1cb50d8f71341afaba844ed33cce, type: 3}
