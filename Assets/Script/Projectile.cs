@@ -12,13 +12,14 @@ public class Projectile : MonoBehaviour {
 
     private void Awake()
     {
-        spawnDuration = 3.0f;
+        spawnDuration = 10.0f;
         _rigidbody = GetComponent<Rigidbody>();
         Assert.IsNotNull(_rigidbody);
     }
 
     public void Fire(Vector3 initialVelocity)
     {
+        _rigidbody.AddForce(0, 0, 100, ForceMode.Impulse);
         _rigidbody.velocity = initialVelocity;
     }
 
