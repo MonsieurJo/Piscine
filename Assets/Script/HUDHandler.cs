@@ -23,7 +23,6 @@ public class HUDHandler : MonoBehaviour {
 
     private Animator _animator;
     private int _currentScore;
-    private Color _dangerColor;
 
     private void Awake()
     {
@@ -32,8 +31,6 @@ public class HUDHandler : MonoBehaviour {
         Assert.IsNotNull(ammoText);
         Assert.IsNotNull(healthBar);
         _currentScore = 0;
-
-        _dangerColor = danger.color;
 
         _animator = GetComponent<Animator>();
     }

@@ -14,10 +14,12 @@ public class LevelManager : MonoBehaviour
     public PlayerManager player;
 
     private DateTime _startedTime;
+    private Rigidbody _rigidbody;
 
     private void Awake()
     {
         Instance = this;
+        _rigidbody = player.GetComponent<Rigidbody>();
         Assert.IsNotNull(player);
     }
 
@@ -34,6 +36,9 @@ public class LevelManager : MonoBehaviour
 
     public void PlayerWin()
     {
+        Vector3 newVelocity = _rigidbody.velocity;
+        newVelocity.z = _rigidbody.velocity.z + 100f;
+        _rigidbody.velocity = newVelocity;
         CameraManager.Instance.currentCamera.transform.parent = null;
     }
 }
