@@ -10,7 +10,7 @@ GameObject:
   - component: {fileID: 496406}
   - component: {fileID: 3330606}
   - component: {fileID: 2394896}
-  - component: {fileID: 6418708}
+  - component: {fileID: 65427837385671570}
   m_Layer: 0
   m_Name: Industrial_Pillar_1A
   m_TagString: Untagged
@@ -25,7 +25,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 163248}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.774796, y: 1.6976948, z: -9.5225525}
+  m_LocalPosition: {x: -633.3906, y: 72.984474, z: 168.42743}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4477687128126934}
@@ -71,20 +71,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 163248}
   m_Mesh: {fileID: 4300012, guid: 099ff09cf63f7f0409e54e085f6b0574, type: 3}
---- !u!64 &6418708
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 163248}
-  m_Material: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300012, guid: 099ff09cf63f7f0409e54e085f6b0574, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -129,6 +115,18 @@ Transform:
   m_Father: {fileID: 496406}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!65 &65427837385671570
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163248}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.9999995, y: 10.005, z: 2}
+  m_Center: {x: -0.000000059604645, y: 0.37027216, z: -0.0000014603138}
 --- !u!108 &108728277432273750
 Light:
   m_ObjectHideFlags: 1

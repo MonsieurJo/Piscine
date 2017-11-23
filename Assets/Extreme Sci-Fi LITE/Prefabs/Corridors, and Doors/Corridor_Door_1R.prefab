@@ -10,7 +10,7 @@ GameObject:
   - component: {fileID: 412290}
   - component: {fileID: 3353964}
   - component: {fileID: 2336470}
-  - component: {fileID: 6473160}
+  - component: {fileID: 65095295568399596}
   m_Layer: 0
   m_Name: Corridor_Door_1R
   m_TagString: Untagged
@@ -25,7 +25,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 167956}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 918.8752, y: 562.67346, z: -580.50604}
+  m_LocalPosition: {x: -40.02532, y: 53.081886, z: -3.0238638}
   m_LocalScale: {x: 15, y: 6.3, z: 6.3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -70,20 +70,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 167956}
   m_Mesh: {fileID: 4300000, guid: e63dd9175d8b1954cafd0679808bb39c, type: 3}
---- !u!64 &6473160
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 167956}
-  m_Material: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: e63dd9175d8b1954cafd0679808bb39c, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -99,3 +85,15 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 167956}
   m_IsPrefabParent: 1
+--- !u!65 &65095295568399596
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 167956}
+  m_Material: {fileID: 13400000, guid: 9e35a98a2dae6a542a8346f7af7e66a0, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9439998, y: 4.3305864, z: 0.32000244}
+  m_Center: {x: -0.023243487, y: -0.007447839, z: -0.000000014901161}
