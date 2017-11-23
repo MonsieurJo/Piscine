@@ -112,140 +112,10 @@ NavMeshSettings:
 Transform:
   m_PrefabParentObject: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_PrefabInternal: {fileID: 511573090}
---- !u!1 &10754666
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 10754667}
-  - component: {fileID: 10754668}
-  m_Layer: 0
-  m_Name: Spotlight
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &10754667
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 10754666}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 662897974}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!108 &10754668
-Light:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 10754666}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 4
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!4 &21858411 stripped
 Transform:
   m_PrefabParentObject: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_PrefabInternal: {fileID: 404326637}
---- !u!1 &26842580
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 26842581}
-  - component: {fileID: 26842582}
-  m_Layer: 0
-  m_Name: Point light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &26842581
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 26842580}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0063505624, y: -0.13397215, z: 0.012701125}
-  m_LocalScale: {x: 0.15873015, y: 0.15873015, z: 0.15873015}
-  m_Children: []
-  m_Father: {fileID: 2072534105}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &26842582
-Light:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 26842580}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 7
-  m_Range: 45.08
-  m_SpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 1
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!4 &52402544 stripped
 Transform:
   m_PrefabParentObject: {fileID: 437172, guid: 00379f7646f0ca84692c5130a26a1177, type: 2}
@@ -309,6 +179,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -355,28 +229,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 445164, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 445164, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 445164, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6404296, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
-    - target: {fileID: 6434890, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
   m_IsPrefabParent: 0
@@ -546,32 +398,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 445164, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 445164, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 445164, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 6.3
-      objectReference: {fileID: 0}
     - target: {fileID: 189996, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
       propertyPath: m_Name
       value: Corridor_Doors_Double (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6434890, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
-    - target: {fileID: 6404296, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a39a131ab75ded344bfa7e4805dbd6ec, type: 2}
   m_IsPrefabParent: 0
@@ -703,6 +533,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -764,6 +598,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -907,6 +745,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -969,6 +811,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -1011,33 +857,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 437172, guid: 00379f7646f0ca84692c5130a26a1177, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 437172, guid: 00379f7646f0ca84692c5130a26a1177, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 437172, guid: 00379f7646f0ca84692c5130a26a1177, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6492900, guid: 00379f7646f0ca84692c5130a26a1177, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 9e35a98a2dae6a542a8346f7af7e66a0,
-        type: 2}
-    - target: {fileID: 6415584, guid: 00379f7646f0ca84692c5130a26a1177, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 9e35a98a2dae6a542a8346f7af7e66a0,
-        type: 2}
-    - target: {fileID: 6495616, guid: 00379f7646f0ca84692c5130a26a1177, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 00379f7646f0ca84692c5130a26a1177, type: 2}
   m_IsPrefabParent: 0
@@ -1100,6 +919,10 @@ Prefab:
     - target: {fileID: 163248, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
       propertyPath: m_Name
       value: Industrial_Pillar_1A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477687128126934, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
@@ -1287,6 +1110,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -1348,6 +1175,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -1475,6 +1306,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -1742,6 +1577,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -1947,6 +1786,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -2339,6 +2182,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -2664,23 +2511,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 413284, guid: 0f1c409fdd311ce4ca7bfe14949b4389, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 413284, guid: 0f1c409fdd311ce4ca7bfe14949b4389, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 413284, guid: 0f1c409fdd311ce4ca7bfe14949b4389, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6420606, guid: 0f1c409fdd311ce4ca7bfe14949b4389, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f1c409fdd311ce4ca7bfe14949b4389, type: 2}
   m_IsPrefabParent: 0
@@ -2979,18 +2809,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 6.3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -3048,6 +2866,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -3170,6 +2992,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -3228,23 +3054,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 413272, guid: 2f2c5d135938f0343be0510916378c61, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 413272, guid: 2f2c5d135938f0343be0510916378c61, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 413272, guid: 2f2c5d135938f0343be0510916378c61, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6460370, guid: 2f2c5d135938f0343be0510916378c61, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f2c5d135938f0343be0510916378c61, type: 2}
   m_IsPrefabParent: 0
@@ -3417,23 +3226,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 470596, guid: c9f5b0379c70a944b98839e9c60680af, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 470596, guid: c9f5b0379c70a944b98839e9c60680af, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 470596, guid: c9f5b0379c70a944b98839e9c60680af, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6441120, guid: c9f5b0379c70a944b98839e9c60680af, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c9f5b0379c70a944b98839e9c60680af, type: 2}
   m_IsPrefabParent: 0
@@ -3492,6 +3284,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -3534,23 +3330,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 489598, guid: bdaa8963568d45f42a54a47e532cc40c, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 489598, guid: bdaa8963568d45f42a54a47e532cc40c, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 489598, guid: bdaa8963568d45f42a54a47e532cc40c, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6411122, guid: bdaa8963568d45f42a54a47e532cc40c, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bdaa8963568d45f42a54a47e532cc40c, type: 2}
   m_IsPrefabParent: 0
@@ -3743,6 +3522,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -3785,23 +3568,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 409780, guid: 9fcadab81d1f10441a18fc58fa9ea702, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 409780, guid: 9fcadab81d1f10441a18fc58fa9ea702, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 409780, guid: 9fcadab81d1f10441a18fc58fa9ea702, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6457722, guid: 9fcadab81d1f10441a18fc58fa9ea702, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9fcadab81d1f10441a18fc58fa9ea702, type: 2}
   m_IsPrefabParent: 0
@@ -3844,27 +3610,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 409780, guid: 9fcadab81d1f10441a18fc58fa9ea702, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 6.2999997
-      objectReference: {fileID: 0}
-    - target: {fileID: 409780, guid: 9fcadab81d1f10441a18fc58fa9ea702, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 6.2999997
-      objectReference: {fileID: 0}
-    - target: {fileID: 409780, guid: 9fcadab81d1f10441a18fc58fa9ea702, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 6.2999997
-      objectReference: {fileID: 0}
     - target: {fileID: 180904, guid: 9fcadab81d1f10441a18fc58fa9ea702, type: 2}
       propertyPath: m_Name
       value: Corridor_2B_Window (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6457722, guid: 9fcadab81d1f10441a18fc58fa9ea702, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9fcadab81d1f10441a18fc58fa9ea702, type: 2}
   m_IsPrefabParent: 0
@@ -3986,6 +3735,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -4047,6 +3800,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -4176,6 +3933,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -4373,6 +4134,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -4499,6 +4264,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -4680,23 +4449,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 496406, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 496406, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 496406, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6418708, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
   m_IsPrefabParent: 0
@@ -4865,6 +4617,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -5257,22 +5013,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_PrefabInternal: {fileID: 1617110765}
---- !u!1 &1392422852 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 182142, guid: 00379f7646f0ca84692c5130a26a1177, type: 2}
-  m_PrefabInternal: {fileID: 343880969}
---- !u!114 &1392422857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1392422852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b33e1cb50d8f71341afaba844ed33cce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
 --- !u!1001 &1404408920
 Prefab:
   m_ObjectHideFlags: 0
@@ -5312,23 +5052,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 412290, guid: 10094730febd89d4c969a7f770991cfa, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 412290, guid: 10094730febd89d4c969a7f770991cfa, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 412290, guid: 10094730febd89d4c969a7f770991cfa, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6473160, guid: 10094730febd89d4c969a7f770991cfa, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 10094730febd89d4c969a7f770991cfa, type: 2}
   m_IsPrefabParent: 0
@@ -5391,25 +5114,13 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1451614855 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 163964, guid: 00379f7646f0ca84692c5130a26a1177, type: 2}
-  m_PrefabInternal: {fileID: 343880969}
---- !u!114 &1451614860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1451614855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b33e1cb50d8f71341afaba844ed33cce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
 --- !u!1001 &1460281701
 Prefab:
   m_ObjectHideFlags: 0
@@ -5464,6 +5175,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -5587,6 +5302,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -5717,6 +5436,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -5774,6 +5497,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -5993,6 +5720,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -6115,6 +5846,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -6501,6 +6236,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -6558,6 +6297,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -6804,23 +6547,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 496406, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 496406, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 496406, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6418708, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 1a85d32b60f26d84b9214511014c7857,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 2}
   m_IsPrefabParent: 0
@@ -7475,6 +7201,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -7596,6 +7326,10 @@ Prefab:
       propertyPath: m_Name
       value: Ceiling_Light_1C (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
   m_IsPrefabParent: 0
@@ -7653,6 +7387,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
@@ -7715,6 +7453,10 @@ Prefab:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
       propertyPath: m_Name
       value: Ceiling_Light_1C (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262834551318482, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91a612d162db71343ac88681ee0df5cd, type: 2}
