@@ -30,7 +30,7 @@ public class InstaKill : MonoBehaviour {
         _dist = Vector3.Distance(playerTransform.position, transform.position);
         if(_dist <= 100f)
         {
-            uiHandler.SetTransparency(_dist);
+            uiHandler.SetTransparency(1f-(_dist/100f));
         }
         //Debug.Log(_dist);
     }

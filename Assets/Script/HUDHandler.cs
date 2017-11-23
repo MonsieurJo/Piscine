@@ -16,13 +16,15 @@ public class HUDHandler : MonoBehaviour {
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI ammoText;
     public Image healthBar;
-    public Image danger;
+    public Image dangerL;
+    public Image dangerR;
 
     [Header("Settings")]
     public float scoreFrameIncrement = 100f;
 
     private Animator _animator;
     private int _currentScore;
+    private Color _dangerColor;
 
     private void Awake()
     {
@@ -30,7 +32,13 @@ public class HUDHandler : MonoBehaviour {
         Assert.IsNotNull(scoreText);
         Assert.IsNotNull(ammoText);
         Assert.IsNotNull(healthBar);
+        Assert.IsNotNull(dangerL);
+        Assert.IsNotNull(dangerR);
         _currentScore = 0;
+        _dangerColor = dangerL.color;
+        _dangerColor.a = 0;
+        dangerL.color = _dangerColor;
+        dangerR.color = _dangerColor;
 
         _animator = GetComponent<Animator>();
     }
@@ -82,7 +90,8 @@ public class HUDHandler : MonoBehaviour {
 
     public void SetTransparency(float newFill)
     {
-        danger.fillAmount = (100f - newFill) / 100f;
-        Debug.Log(danger.fillAmount);
+        _dangerColor.a = newFill;
+        dangerL.color = _dangerColor;
+        dangerR.color = _dangerColor;
     }
 }
