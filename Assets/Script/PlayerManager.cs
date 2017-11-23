@@ -162,4 +162,10 @@ public class PlayerManager : MonoBehaviour {
     {
         score += scoreValue;
     }
+
+    public void SpeedIncrease(float addSpeed, float addAcceleration)
+    {
+        forwardAcceleration += addAcceleration;
+        maxSpeed += addSpeed;
+    }
 }
