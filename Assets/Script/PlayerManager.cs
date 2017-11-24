@@ -26,6 +26,7 @@ public class PlayerManager : MonoBehaviour {
 	private float _smoothXVelocity;
 	private float _smoothYVelocity;
     public float currentHealth;
+    public float tilt;
 
     private float _boostAcceleration = 0f;
     private float _boostDuration = 0f;
@@ -109,7 +110,8 @@ public class PlayerManager : MonoBehaviour {
         }
 
         _rigidbody.velocity = newVelocity;
-	}
+        _rigidbody.rotation = Quaternion.Euler(0.0f, 180.0f, _rigidbody.velocity.x * tilt);
+    }
 	
 	// Update is called once per frame
 	private void LateUpdate ()
