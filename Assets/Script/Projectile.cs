@@ -19,8 +19,8 @@ public class Projectile : MonoBehaviour {
 
     public void Fire(Vector3 initialVelocity)
     {
-        _rigidbody.AddForce(0, 0, 100, ForceMode.Impulse);
         _rigidbody.velocity = initialVelocity;
+        _rigidbody.AddForce(0, 0, 150, ForceMode.Impulse);
     }
 
     public void OnCollisionEnter(Collision collision)

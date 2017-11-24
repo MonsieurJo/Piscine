@@ -79,7 +79,7 @@ public class PlayerManager : MonoBehaviour {
     private void SpawnProjectile()
     {
         ammo--;
-        Projectile projectile = (Projectile)Instantiate(projectilePrefab, _spawnPosition.position, Quaternion.identity);
+        Projectile projectile = (Projectile)Instantiate(projectilePrefab, _spawnPosition.position, _spawnPosition.rotation);
         Vector3 initialVelocity = _rigidbody.velocity;
         initialVelocity.x = 0f;
         initialVelocity.y = 0f;
