@@ -2903,6 +2903,10 @@ Prefab:
       propertyPath: uiHandler
       value: 
       objectReference: {fileID: 1085523861}
+    - target: {fileID: 1754498983711830, guid: faef800e2b6800442b099962531772cb, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: faef800e2b6800442b099962531772cb, type: 2}
   m_IsPrefabParent: 0

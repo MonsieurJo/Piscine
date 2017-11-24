@@ -5,28 +5,30 @@ using UnityEngine.Assertions;
 
 public class PlayerManager : MonoBehaviour {
 
+    [Header("Requirements")]
     public Projectile projectilePrefab;
-
     public HUDHandler UiHandler;
-
     public GameObject spawnPosition;
 
+    [Header("Parameters stats")]
     public float maxHealth = 100f;
+    public float currentHealth;
     public int ammo = 3;
-    public float maxSpeed = 100f;
-	public float forwardAcceleration = 20f;
     public int score { get; private set; }
 
+    [Header("Parameters movements")]
+    public float maxSpeed = 100f;
+    public float forwardAcceleration = 20f;
     public float straffMaxSpeed = 100f;
     public float straffTime = 0.1f;
+    public float tilt;
 
 
-	private Rigidbody _rigidbody;
+    private Rigidbody _rigidbody;
     private Transform _spawnPosition;
 	private float _smoothXVelocity;
 	private float _smoothYVelocity;
-    public float currentHealth;
-    public float tilt;
+    
 
     private float _boostAcceleration = 0f;
     private float _boostDuration = 0f;
@@ -38,7 +40,7 @@ public class PlayerManager : MonoBehaviour {
 	private void Awake(){
 		_rigidbody = GetComponent<Rigidbody>();
         _spawnPosition = spawnPosition.transform;
-        // _currentAmmo = maxAmmo;
+        //_currentAmmo = maxAmmo;
         currentHealth = maxHealth;
         Assert.IsNotNull(_rigidbody);
         Assert.IsNotNull(_spawnPosition);
