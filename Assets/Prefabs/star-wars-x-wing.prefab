@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 124335821798210100}
   - component: {fileID: 92717477304598742}
   - component: {fileID: 81896078897292984}
+  - component: {fileID: 114051721606571620}
   m_Layer: 8
   m_Name: Camera Shoulder
   m_TagString: Untagged
@@ -301,6 +302,7 @@ GameObject:
   - component: {fileID: 124000545415117964}
   - component: {fileID: 92660602152000440}
   - component: {fileID: 81550398311663942}
+  - component: {fileID: 114743012375196342}
   m_Layer: 8
   m_Name: Camera FPS
   m_TagString: Untagged
@@ -400,6 +402,7 @@ GameObject:
   - component: {fileID: 92284008234052366}
   - component: {fileID: 124502000774829882}
   - component: {fileID: 81095422066674778}
+  - component: {fileID: 114336193129756436}
   m_Layer: 8
   m_Name: Camera TPS
   m_TagString: MainCamera
@@ -891,7 +894,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -927,7 +930,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -963,7 +966,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -1801,6 +1804,42 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114051721606571620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1262338189081302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: aa64ba098cf0995499a11d62c04ccbee, type: 2}
+--- !u!114 &114336193129756436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791144569489980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: aa64ba098cf0995499a11d62c04ccbee, type: 2}
+--- !u!114 &114743012375196342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544289570216250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: aa64ba098cf0995499a11d62c04ccbee, type: 2}
 --- !u!114 &114756569877052528
 MonoBehaviour:
   m_ObjectHideFlags: 1
